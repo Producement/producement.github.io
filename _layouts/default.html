@@ -29,10 +29,10 @@
 {% if jekyll.environment == 'production' %}
 <script>
     (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', '{{site.google_analytics}}', 'auto');
@@ -77,14 +77,9 @@
                         <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                     </li>
 
-                    {% if page.url == "/about.html" %}
-                    <li class="nav-item active">
-                        {% else %}
                     <li class="nav-item">
-                        {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                        <a class="nav-link" href="{{ site.about }}">About</a>
                     </li>
-
 
                     <li class="nav-item">
                         <a target="_blank" class="nav-link" href="https://www.facebook.com/producement/"><i class="fab fa-facebook-f"></i></a>
