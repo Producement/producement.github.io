@@ -1,7 +1,7 @@
 # Site
-name: "Producement"
-description: "Customer-centric product engineering."
-meta_description: "Customer-centric product engineering."
+name: 'Producement'
+description: 'Customer-centric product engineering.'
+meta_description: 'Customer-centric product engineering.'
 logo: 'assets/images/bull.svg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
@@ -14,11 +14,11 @@ authors:
   maido:
     name: Maido
     display_name: Maido
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
+    gravatar: ADA2A659AB41D04ABF3BD1B23A88E4BE
+    email: maido@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: 'Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo.'
   erko:
     name: Erko
     display_name: Erko
@@ -26,7 +26,7 @@ authors:
     email: erko@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: 'Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo.'
   jordan:
     name: Jordan
     display_name: Jordan
@@ -34,13 +34,13 @@ authors:
     email: jordan@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: 'This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages.'
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -48,11 +48,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 highlighter: rouge
