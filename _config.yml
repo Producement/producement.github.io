@@ -15,27 +15,27 @@ authors:
   maido:
     name: Maido
     display_name: Maido
-    gravatar: ADA2A659AB41D04ABF3BD1B23A88E4BE
+    gravatar: c15acce9bab0d6ee1428c685beb84e74
     email: maido@producement.com
     web: https://producement.com
-    #twitter: https://twitter.com/wowthemesnet
-    description: 'Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo.'
+    twitter: https://twitter.com/v3rm0n
+    description: 'Co-founder and Product Engineer at Producement'
   erko:
     name: Erko
     display_name: Erko
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: 8a954c22dd915945fbeebc9aebd0f592
     email: erko@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
-    description: 'Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo.'
+    description: 'Co-founder and Product Engineer at Producement'
   jordan:
     name: Jordan
     display_name: Jordan
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    gravatar: 0e9ea6eea151c737e4750fee91b55ef4
     email: jordan@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
-    description: 'This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages.'
+    description: 'Co-founder and Product Engineer at Producement'
 
 # Plugins
 plugins:
