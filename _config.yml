@@ -2,8 +2,8 @@
 name: "Producement"
 description: "Customer-centric product engineering."
 meta_description: "Customer-centric product engineering."
-logo: 'https://avatars3.githubusercontent.com/u/30801716?s=200&v=4'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/bull.svg'
+favicon: 'assets/images/favicon.ico'
 baseurl: ''
 google_analytics: 'UA-104411241-2'
 #disqus: 'demowebsite'
@@ -11,21 +11,29 @@ google_analytics: 'UA-104411241-2'
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  maido:
+    name: Maido
+    display_name: Maido
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    web: https://producement.com
+    #twitter: https://twitter.com/wowthemesnet
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
+  erko:
+    name: Erko
+    display_name: Erko
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: erko@producement.com
+    web: https://producement.com
+    #twitter: https://twitter.com/wowthemesnet
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  jordan:
+    name: Jordan
+    display_name: Jordan
     gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    email: jordan@producement.com
+    web: https://producement.com
+    #twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
