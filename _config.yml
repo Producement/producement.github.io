@@ -12,10 +12,10 @@ google_analytics: 'UA-104411241-2'
 
 # Authors
 authors:
-  maido:
+  maido:tig
     name: Maido
     display_name: Maido
-    gravatar: c15acce9bab0d6ee1428c685beb84e74
+    gravatar: 11714de68faa827e62c4129eee1f147d
     email: maido@producement.com
     web: https://producement.com
     twitter: https://twitter.com/v3rm0n
@@ -23,7 +23,7 @@ authors:
   erko:
     name: Erko
     display_name: Erko
-    gravatar: 8a954c22dd915945fbeebc9aebd0f592
+    gravatar: a695d089200e50b03898662a948bf4b8
     email: erko@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
@@ -31,7 +31,7 @@ authors:
   jordan:
     name: Jordan
     display_name: Jordan
-    gravatar: 0e9ea6eea151c737e4750fee91b55ef4
+    gravatar: 1ffc3433e1ab9bd3d4acf6317b2d3913
     email: jordan@producement.com
     web: https://producement.com
     #twitter: https://twitter.com/wowthemesnet
