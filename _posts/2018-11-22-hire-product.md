@@ -3,14 +3,14 @@ layout: post
 title: 'How to hire the best Product Engineers?'
 author: jordan
 categories: [product, hiring]
-image: assets/images/hacker.jpg
+image: /assets/images/hacker.jpeg
 featured: true
 hidden: true
 ---
 
 Hiring is one of the most difficult and also rewarding parts of building a company. I prioritise hiring as important as building products. **This article reflects what has worked for me to find the best people across hundreds of hiring interviews.** It outlines topics to cover with example questions. You might find it helpful if you are a non-technical founder and looking for a technical co-founder or simply want to get better at interviewing.
 
-![Hackerman, from the movie “Kung Fury”](assets/images/hacker.jpeg)
+![Hackerman, from the movie “Kung Fury”](/assets/images/hacker.jpeg)
 
 Who is a Product Engineer? A person who is capable of figuring out what customers wants and implementing it. The kind of a person who reads product books like Lean Startup, Hooked, Don’t make me think, and technical books like Clean Code, Design Patterns, Pragmatic Programmer at the same time. Aim is to attract an all-round engineer, who could be a founder of their own startup or possibly has been. It’s not the people who just can code, but the people who can code the right things, that make your company successful.
 
@@ -105,7 +105,7 @@ Good answer might talk you through one or many possible journeys and can explain
 
 Unaware customer → aware → considering→ converted → advanced customer → promotor
 
-![Hackermans toolbox, from the movie “Kung Fury”](assets/images/hacker_tool.png)
+![Hackermans toolbox, from the movie “Kung Fury”](/assets/images/hacker_tool.png)
 
 ## Teamwork and leadership skills
 
@@ -137,7 +137,7 @@ Endeavouring to understand if candidate is interested in setting people up for s
 
 Expecting to have good questions about the mission of the company, product, teams, culture and tech etc. Instant turnoff when the first or most important question is something like “what are the employee benefits?”.
 
-![Hackermans robot, from the movie “Kung Fury”](assets/images/hacker_robot.png)
+![Hackermans robot, from the movie “Kung Fury”](/assets/images/hacker_robot.png)
 
 ## Notes on form
 
@@ -168,7 +168,7 @@ Seems like candidates appreciate honesty and feedback. We get emails like the fo
 > I would like to let you know my feelings after the technical interview with Jordan and Erko. I really >liked it. Not only because it went well (in my opinion), but also because it already influenced my >day-to-day routine.
 > Why did I like it — mostly because of instant feedback. They were very straight regarding my >motivation and customer orientation. I thought I had no issues as to those, but now I realise, that I >should pay more attention to them. Also, I was able to explain what I really wanted to say and avoid >any misunderstanding. Thanks to Jordan I keep in mind that a good colleague will appreciate honest >feedback more than anything else.
 
-**This is no. 1 of a series of blog posts on Product Engineering — how to maximise your impact. Subscribe this account to get updates on next posts.**
+**This is no. 1 of a series of blog posts on Product Engineering — how to maximise your impact.**
 
 _Thanks to Liisi Eenmaa and Maido Käära._
 
