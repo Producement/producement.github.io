@@ -10,8 +10,6 @@ hidden: true
 
 Hiring is one of the most difficult and also rewarding parts of building a company. I prioritise hiring as important as building products. **This article reflects what has worked for me to find the best people across hundreds of hiring interviews.** It outlines topics to cover with example questions. You might find it helpful if you are a non-technical founder and looking for a technical co-founder or simply want to get better at interviewing.
 
-![Hackerman, from the movie “Kung Fury”](/assets/images/hacker.jpeg)
-
 Who is a Product Engineer? A person who is capable of figuring out what customers wants and implementing it. The kind of a person who reads product books like Lean Startup, Hooked, Don’t make me think, and technical books like Clean Code, Design Patterns, Pragmatic Programmer at the same time. Aim is to attract an all-round engineer, who could be a founder of their own startup or possibly has been. It’s not the people who just can code, but the people who can code the right things, that make your company successful.
 
 ## Structure of the interview
