@@ -163,8 +163,8 @@ Being fully honest might also show you how candidate react to feedback and if th
 
 Seems like candidates appreciate honesty and feedback. We get emails like the following every once in a while.
 
-> I would like to let you know my feelings after the technical interview with Jordan and Erko. I really >liked it. Not only because it went well (in my opinion), but also because it already influenced my >day-to-day routine.
-> Why did I like it — mostly because of instant feedback. They were very straight regarding my >motivation and customer orientation. I thought I had no issues as to those, but now I realise, that I >should pay more attention to them. Also, I was able to explain what I really wanted to say and avoid >any misunderstanding. Thanks to Jordan I keep in mind that a good colleague will appreciate honest >feedback more than anything else.
+> I would like to let you know my feelings after the technical interview with Jordan and Erko. I really liked it. Not only because it went well (in my opinion), but also because it already influenced my day-to-day routine.
+> Why did I like it — mostly because of instant feedback. They were very straight regarding my motivation and customer orientation. I thought I had no issues as to those, but now I realise, that I should pay more attention to them. Also, I was able to explain what I really wanted to say and avoid any misunderstanding. Thanks to Jordan I keep in mind that a good colleague will appreciate honest feedback more than anything else.
 
 **This is no. 1 of a series of blog posts on Product Engineering — how to maximise your impact.**
 
