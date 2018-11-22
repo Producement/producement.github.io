@@ -2,7 +2,7 @@
 layout: post
 title: 'How to hire the best Product Engineers?'
 author: jordan
-categories: [product, hiring]
+categories: [product, hiring, startup, interview]
 image: /assets/images/hacker.jpeg
 featured: true
 hidden: true
