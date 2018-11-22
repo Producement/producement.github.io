@@ -4,7 +4,7 @@ title: 'ICO Regulations — Securities Depository on a Blockchain'
 author: jordan
 categories: [blockchain, finance]
 image: /assets/images/securities.png
-featured: true
+featured: false
 hidden: false
 ---
 
