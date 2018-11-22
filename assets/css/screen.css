@@ -234,6 +234,7 @@ span.post-read-more a:hover {
 .mainheading h1.sitetitle {
   font-family: 'Open Sans';
   font-weight: 700;
+  text-transform: uppercase;
 }
 .mainheading h1.posttitle {
   font-weight: 700;
