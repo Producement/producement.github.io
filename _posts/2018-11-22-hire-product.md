@@ -5,7 +5,7 @@ author: jordan
 categories: [product, hiring, startup, interview]
 image: /assets/images/hacker.jpeg
 featured: true
-hidden: true
+hidden: false
 ---
 
 Hiring is one of the most difficult and also rewarding parts of building a company. I prioritise hiring as important as building products. **This article reflects what has worked for me to find the best people across hundreds of hiring interviews.** It outlines topics to cover with example questions. You might find it helpful if you are a non-technical founder and looking for a technical co-founder or simply want to get better at interviewing.
