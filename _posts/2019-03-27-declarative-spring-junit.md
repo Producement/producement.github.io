@@ -4,7 +4,7 @@ title: 'Declarative configuration and mocking in Spring Boot tests'
 author: maido
 categories: [tech, spring-boot, test, kotlin]
 image: /assets/images/annotations.png
-featured: true
+featured: false
 hidden: true
 ---
 
