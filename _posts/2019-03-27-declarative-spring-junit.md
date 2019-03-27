@@ -4,8 +4,8 @@ title: 'Declarative configuration and mocking in Spring Boot tests'
 author: maido
 categories: [tech, spring-boot, test, kotlin]
 image: /assets/images/annotations.png
-featured: false
-hidden: true
+featured: true
+hidden: false
 ---
 
 There are multiple ways how to set up mocks and configuration in [Spring Boot](https://spring.io/guides/gs/spring-boot/) tests. Mostly the projects we have been working on have some base classes that you can extend depending on the types of your tests. For example you will have `IntegrationTest`, `RepositoryTest` or `UnitTest` base classes that you extend while writing a new test class, which contain all the mocks and configuration that is needed. but we are big fans of composition and declarative configuration, which is extensively used in Spring Boot itself, so I'm going to show you some examples that we use and have found to work quite nicely for us. We are also big fans of Kotlin so I'm going to use it in the examples, but it works almost the same way in Java.
