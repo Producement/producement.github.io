@@ -4,7 +4,7 @@ title: 'How to hire the best Product Engineers?'
 author: jordan
 categories: [product, hiring, startup, interview]
 image: /assets/images/hacker.jpeg
-featured: true
+featured: false
 hidden: false
 ---
 
