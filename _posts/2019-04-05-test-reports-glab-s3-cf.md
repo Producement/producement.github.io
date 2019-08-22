@@ -46,7 +46,7 @@ We need to have an [AWS Access Key](https://docs.aws.amazon.com/IAM/latest/UserG
 
 The policy should look like this:
 
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -79,7 +79,7 @@ This is where we can use CloudFlare Access: we will only allow access from [Clou
 
 Create a new bucket policy for our bucket under **Permissions -> Bucket Policy**:
 
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -139,7 +139,7 @@ Add your previously generated AWS Access Key to GitLab
 
 Example `.gitlab-ci.yml` configuration file for a [Gradle](https://gradle.org/) project with [JUnit](https://junit.org/junit5/) and [Jacoco](https://www.jacoco.org/jacoco/):
 
-```
+```yml
 image: alpine:latest
 
 variables:

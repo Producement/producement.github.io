@@ -19,7 +19,7 @@ Let's say we want to fetch a list of users from the backend and display them in 
 
 First we set up our state.
 
-```
+```typescript
 import {User} from 'model';
 
 export interface UsersState {
@@ -37,7 +37,7 @@ export const initialState: UsersState = {
 
 Then create a [slice](https://redux-starter-kit.js.org/api/createslice) (reducer with actions)
 
-```
+```typescript
 import {UserState, initialState} from 'state';
 import {createSlice} from 'redux-starter-kit';
 
@@ -68,7 +68,7 @@ export default reducer;
 
 Combine reducers and create a store
 
-```
+```typescript
 import userReducer from 'reducer';
 import { createStore, combineReducers } from 'redux';
 const mainReducer = combineReducers({
@@ -80,7 +80,7 @@ const store = createStore(mainReducer);
 
 Use whichever [async middleware](https://redux.js.org/advanced/async-flow) you want to fetch the data. For example [redux-thunk](https://github.com/reduxjs/redux-thunk) or [redux-saga](https://redux-saga.js.org/). Using **redux-thunk** here.
 
-```
+```typescript
 import {userApi} from 'userApi';
 import {PayloadAction, Action} from 'redux-starter-kit';
 
@@ -98,7 +98,7 @@ export const fetchUsers = () =>
 
 And now use it in your awesome functional connected React/Redux component (with [Hooks](https://reactjs.org/docs/hooks-intro.html) and TypeScript of course):
 
-```
+```tsx
 import React, {useEffect} from 'react';
 import {connect, ResolveThunks} from 'react-redux';
 import {fetchUsers as fetchUsersAction} from './userActions';

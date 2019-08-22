@@ -10,7 +10,7 @@ hidden: false
 
 From our personal experience we have learned that it is a really good idea to use an actual DB that you use in production to run your tests against so that there won't be any nasty surprises after you go to production. So no [H2](https://h2database.com/html/main.html) for us. It is possible to use an [embedded DB](https://github.com/yandex-qatools/postgresql-embedded), but we had some issues with those as well. What has worked for us is just running the DB in [Docker](https://www.docker.com/) and using it to run tests. It's quite easy to set it up using the [testcontainers](https://www.testcontainers.org/) project.
 
-```
+```kotlin
 class DbContainerInitializer : ApplicationContextInitializer<ConfigurableApplicationContext> {
 
   override fun initialize(applicationContext: ConfigurableApplicationContext) {
@@ -44,7 +44,7 @@ This class will start a Postgres database instance container and injects the pro
 
 You can use this class with `@ContextConfiguration` annotation on your test annotation class. 
 
-```
+```kotlin
 @Target(CLASS)
 @Retention(RUNTIME)
 @TestInstance(Lifecycle.PER_CLASS)

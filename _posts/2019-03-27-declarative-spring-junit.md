@@ -14,7 +14,7 @@ There are multiple ways how to set up mocks and configuration in [Spring Boot](h
 
 Instead of having base classes for test, each test type has its own annotation. For unit tests we have
 
-```
+```kotlin
 @Target(CLASS)
 @Retention(RUNTIME)
 @TestInstance(Lifecycle.PER_CLASS)
@@ -25,7 +25,7 @@ This is a really simple one and probably only useful in Kotlin where we do not h
 
 Let's take an example that is a bit more useful: test for Spring repositories. It is using test slicing to only start up the beans that we need to test a repository class, without running service or presentation layer beans.
 
-```
+```kotlin
 @Target(CLASS)
 @Retention(RUNTIME)
 @TestInstance(Lifecycle.PER_CLASS)
@@ -49,7 +49,7 @@ Not a lot of useful configuration yet, but these annotations give us a base that
 
 We want to test our repository, but we don't really want to use another repository to set up the data for it. Spring Boot provides a `@Sql` annotation that you can use to run raw SQL.
 
-```
+```kotlin
 @Sql (statements = ["insert into users(id,name) values(1, 'someuser')"])
 @Sql (statements = ["delete from users"], executionPhase = AFTER_TEST_METHOD)
 @Test
@@ -60,11 +60,11 @@ fun `testing something that needs a user` () {
 
 This is easy to set up and you can use a meta annotation to clean up your code.
 
-```
+```kotlin
 @Sql (statements = ["insert into users(id,name) values(1, 'someuser')"])
 annotation WithTestUser
 ```
-```
+```kotlin
 @Sql (statements = ["delete from users"], executionPhase = AFTER_TEST_METHOD)
 annotation Cleanup
 ```
@@ -75,7 +75,7 @@ But this is also not perfect for multiple reasons. For example the data is stati
 
 To tackle these issues we have come up with something like this.
 
-```
+```kotlin
 // Kotlin doesn't support @Repeatable so we need a grouping annotation
 annotation class WithAll(val value: Array<With>)
 
@@ -90,7 +90,7 @@ interface TestFixture {
 
 Now you can create your own annotations with fixtures for mock data.
 
-```
+```kotlin
 object UserFixture : TestFixture {
 
   override fun apply(jdbcTemplate: JdbcTemplate) {
@@ -114,7 +114,7 @@ annotation class WithTestUser
 
 To make it work for our Repository annotation we need to create a `TestExecutionListener`.
 
-```
+```kotlin
 class FixtureAnnotationTestExecutionListener : AbstractTestExecutionListener() {
 
   override fun beforeTestExecution(testContext: TestContext) {
@@ -130,7 +130,7 @@ class FixtureAnnotationTestExecutionListener : AbstractTestExecutionListener() {
 
 And add it to the `@RepositoryTest` annotation.
 
-```
+```kotlin
 @Target(CLASS)
 @Retention(RUNTIME)
 @TestInstance(Lifecycle.PER_CLASS)
